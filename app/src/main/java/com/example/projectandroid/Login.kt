@@ -38,7 +38,7 @@ class Login : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
 
                 if (task.isSuccessful){
-                    val intent = Intent(this, MapsActivity::class.java);
+                    val intent = Intent(this, Rating::class.java);
                     startActivity(intent)
                 }else{
                     Toast.makeText(this,"Eror !!"+task.exception, Toast.LENGTH_LONG).show()

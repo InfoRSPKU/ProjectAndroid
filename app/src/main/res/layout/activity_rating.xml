@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="@drawable/bg_detil"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="Review Rumah Sakit"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="50dp"
         android:gravity="center_horizontal"
-        android:text="Berikan Rating Rumah Sakit ini"
+        android:text="Berikan Rating Rumah Sakit"
         android:textSize="20sp"
         android:textStyle="italic" />
 
@@ -29,7 +41,7 @@
         android:rating="5"
         android:stepSize="1" />
     <TextView
-        android:id="@+id/tvRatingScale"
+        android:id="@+id/nilai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -38,23 +50,35 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/etFeedback"
+        android:id="@+id/txtkomen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:ems="10"
+        android:ems="2"
         android:gravity="top"
-        android:hint="Deskripsi Pengalaman Anda"
+        android:hint="Ketik Komentar Anda"
         android:inputType="textMultiLine"
-        android:lines="5" />
+        android:lines="2" />
+
     <Button
-        android:id="@+id/btnSubmit"
+        android:id="@+id/btn_simpan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:background="#e57373"
+        android:background="@drawable/radius_button"
         android:text="Kirim feedback"
         android:textColor="@android:color/white" />
+
+    <ListView
+        android:id="@+id/lv_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSimpan"
+        app:layout_constraintVertical_bias="0.05" />
 
 </LinearLayout>
 

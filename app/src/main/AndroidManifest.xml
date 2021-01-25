@@ -43,6 +43,7 @@
         <activity android:name=".Tentang"/>
         <activity android:name=".ListRsActivity"/>
         <activity android:name=".DetailDosen"/>
+        <activity android:name=".Rating"/>
     </application>
 
 

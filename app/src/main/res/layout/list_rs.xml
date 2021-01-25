@@ -6,13 +6,15 @@
     android:layout_height="wrap_content"
     app:cardCornerRadius="2dp"
     app:cardElevation="10dp"
+    android:background="@drawable/radius_list"
     app:cardPreventCornerOverlap="false">
 
     <RelativeLayout
         android:id="@+id/rl_klik"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:focusable="true"
+
+        android:background="@drawable/radius_list"
         android:foreground="?selectableItemBackground">
 
         <de.hdodenhof.circleimageview.CircleImageView
