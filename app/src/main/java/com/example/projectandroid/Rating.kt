@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.*
 import android.widget.RatingBar.OnRatingBarChangeListener
 import androidx.appcompat.app.AppCompatActivity
+
 class Rating : AppCompatActivity() {
     var mRatingBar: RatingBar? = null
     var mRatingScale: TextView? = null
