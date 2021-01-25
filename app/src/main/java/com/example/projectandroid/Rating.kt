@@ -34,7 +34,7 @@ class Rating : AppCompatActivity() {
             if (mFeedback!!.text.toString().isEmpty()) {
                 Toast.makeText(
                     this@Rating,
-                    "Harap isi kotak teks umpan balik",
+                    "Harap Isi Kotak Teks Umpan Balik",
                     Toast.LENGTH_LONG
                 ).show()
             } else {
@@ -42,7 +42,7 @@ class Rating : AppCompatActivity() {
                 mRatingBar!!.rating = 0f
                 Toast.makeText(
                     this@Rating,
-                    "Terima kasih telah memberikan tanggapan Anda",
+                    "Terima Kasih Telah Memberikan Tanggapan Anda",
                     Toast.LENGTH_SHORT
                 ).show()
             }
