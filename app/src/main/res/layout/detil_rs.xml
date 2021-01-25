@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tampilan"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:text="Detail Rumah Sakit"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/foto_detail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="76dp"
+        android:layout_marginTop="-30dp"
+        android:layout_weight="70"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/nama_detail_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:fontFamily="@font/comfortaa"
+        android:justificationMode="inter_word"
+        android:text="@string/nama"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/profil_detail_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:lineSpacingExtra="6dp"
+        android:justificationMode="inter_word"
+        android:layout_marginTop="16dp"
+        android:text="@string/profil"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/alamat_detail_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/alamat"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/telepon_detail_rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:justificationMode="inter_word"
+        android:lineSpacingExtra="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/telepon"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+
+    
+
+
+</LinearLayout>
+
+
+
