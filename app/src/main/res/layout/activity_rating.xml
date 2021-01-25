@@ -47,6 +47,14 @@
         android:hint="Deskripsi Pengalaman Anda"
         android:inputType="textMultiLine"
         android:lines="5" />
-    
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#e57373"
+        android:text="Kirim feedback"
+        android:textColor="@android:color/white" />
+
 </LinearLayout>
 
