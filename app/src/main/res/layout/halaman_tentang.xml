@@ -29,7 +29,6 @@
         android:justificationMode="inter_word"
         android:text="Aplikasi ini merupakan Aplikasi Informasi Rumah Sakit  Daerah Pekanbaru, yang mana aplikasi ini dibuat bertujuan untuk memberikan informasi kepada pengguna, yaitu tentang rumah sakit yang berada di daerah Pekanbaru beserta lokasi maps rumah sakit tersebut.
         \n\nAplikasi ini dibuat menggunakan aplikasi Android Studio, dengan menggunakan bahasa kotlin dan xml"
-        android:textColor="#000"
         android:textSize="15sp"
         android:textStyle="bold" />
 
