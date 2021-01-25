@@ -15,7 +15,7 @@ class Coba : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.coba)
 
         ref = FirebaseDatabase.getInstance().getReference("USERS")
         btn_simpam.setOnClickListener {
